@@ -1,0 +1,27 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.button-group button {
+  width: 50%;
+  border: none;
+  padding: 0.8rem 0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 300ms;
+  color: azure;
+}
+
+.button-group button:active {
+  transform: scale(0.95);
+}
+
+.reset-button {
+  background-color: black;
+}
